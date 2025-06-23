@@ -18,17 +18,19 @@ A clean and simple **client-server chat application** built in Python using sock
 
 ## 📂 Project Structure
 
+```bash
 online-chat-app/
-├── client/               # Client-side code and UI
-│   ├── core/             # Networking functions (create_connection, send_data, start_receiving)
-│   ├── ui/               # Client GUI (ChatClient, ServerConnectionDialog)
-│   └── main.py           # Client app entry point
-├── server/               # Server-side code and UI
-│   ├── core/             # Server networking (ChatServer class)
-│   ├── ui/               # Server GUI (ChatServerControlPanel)
-│   └── main.py           # Server app entry point
-├── utils/                # Shared utilities (e.g., load_custom_css for styles)
-└── README.md             # This README file
+   ├── client/               # Client-side code and UI
+   │   ├── core/             # Networking functions (create_connection, send_data, start_receiving)
+   │   ├── ui/               # Client GUI (ChatClient, ServerConnectionDialog)
+   │   └── main.py           # Client app entry point
+   ├── server/               # Server-side code and UI
+   │   ├── core/             # Server networking (ChatServer class)
+   │   ├── ui/               # Server GUI (ChatServerControlPanel)
+   │   └── main.py           # Server app entry point
+   ├── utils/                # Shared utilities (e.g., load_custom_css for styles)
+   └── README.md             # This README file
+```
 
 ---
 
