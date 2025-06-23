@@ -1,5 +1,5 @@
 # client/core/__init__.py
 
-from .network import connect_to_server, send_message, start_listening
+from .network import create_connection, send_data, start_receiving
 
-__all__ = ["connect_to_server", "send_message", "start_listening"]
+__all__ = ["create_connection", "send_data", "start_receiving"]

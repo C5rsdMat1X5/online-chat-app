@@ -1,5 +1,5 @@
 # server/core/__init__.py
 
-from .network import ServerNetwork
+from .network import ChatServer
 
-__all__ = ["ServerNetwork"]
+__all__ = ["ChatServer"]

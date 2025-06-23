@@ -1,5 +1,5 @@
 # server/ui/__init__.py
 
-from .widgets import ChatServerUI
+from .widgets import ChatServerControlPanel
 
-__all__ = ["ChatServerUI"]
+__all__ = ["ChatServerControlPanel"]
