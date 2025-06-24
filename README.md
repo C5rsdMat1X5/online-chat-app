@@ -47,7 +47,7 @@ online-chat-app/
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/yourusername/online-chat-app.git
+   git clone https://github.com/C5rsdMat1X5/online-chat-app.git
    cd online-chat-app
    ```
 
