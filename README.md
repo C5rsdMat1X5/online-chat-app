@@ -47,7 +47,7 @@ online-chat-app/
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/C5rsdMat1X5/online-chat-app.git
+   git clone https://github.com/C5rsdMat1X5/online-chat-app
    cd online-chat-app
    ```
 
@@ -116,11 +116,3 @@ A prebuilt version of the client and server for macOS is available.
 🤝 Contributing
 
 Contributions are welcome! Please follow Python best practices, keep UI consistent, and add tests when possible.
-
----
-
-📄 License
-
-MIT License — see the LICENSE file for details.
-
----
