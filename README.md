@@ -47,7 +47,11 @@ online-chat-app/
 1. Clone the repo:
 
    ```bash
+<<<<<<< HEAD
    git clone https://github.com/C5rsdMat1X5/online-chat-app.git
+=======
+   git clone https://github.com/C5rsdMat1X5/online-chat-app
+>>>>>>> a728006 (lol)
    cd online-chat-app
    ```
 
@@ -65,17 +69,15 @@ online-chat-app/
    pip install -r requirements.txt
    ```
 
-   If no requirements.txt is provided:
-
-   ```bash
-   pip install PySide6 psutil
-   ```
-
 ---
 
 ▶️ Running the Server
 
 ```bash
+# On Linux and MacOS
+python3 server/main.py
+
+# On Windows
 python server/main.py
 ```
 
@@ -87,11 +89,22 @@ python server/main.py
 ▶️ Running the Client
 
 ```bash
+# On Linux and MacOS
+python3 client/main.py
+
+# On Windows
 python client/main.py
 ```
 
 - Opens the ServerConnectionDialog window to input the server IP.
 - After connecting, opens the ChatClient GUI for chatting, username changes, and typing notifications.
+
+---
+
+📦 macOS Build Available
+
+A prebuilt version of the client and server for macOS is available.  
+👉 Check the [Releases](https://github.com/C5rsdMat1X5/online-chat-app/releases) section to download the latest version.
 
 ---
 
